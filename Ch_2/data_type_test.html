@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Type</title>
+</head>
+<h1>Data Type and Type Change </h1>
+<body>
+
+    <script>
+        //data type change
+        let str="Hello";
+        console.log(str,typeof str);
+        str=Number(str);
+        console.log(str,typeof str);
+
+        //data type check
+        let num1=2;
+        let num2="2";
+        console.log(num1+num2);
+        console.log(num1==num2);
+        console.log(num1===num2);
+        num2==Number(num2);
+        console.log("num2 " ,typeof(num2));
+        console.log( "Answer is"+" "+Number(num1+num3));
+        
+        let firstName="Hla";
+        let lastName="Hla";
+        console.log(firstName==lastName);
+        
+     
+        //data type boolean change
+        let bool1=true;
+        let bool2=false;
+        console.log("Boolean 1 is" + bool1);
+        console.log("Boolean 2 is "+ bool2);
+        let bool3="false";
+        console.log("bool3 is ",bool3);
+        console.log(Boolean(bool3));
+
+       
+        
+        let str3 = "Hello, what's your name? It is \"Jhon\" ?";
+        console.log(str3);
+        let str4 = 'Hello, what\'s your name? Is it "Jhon" ?';
+        console.log(str4);
+        let text1="New \nline.";
+        let text2="I'm containing \n a backslash: \\!";
+        console.log(text1);
+        console.log(text2)
+    </script>
+</body>
+
+</html>

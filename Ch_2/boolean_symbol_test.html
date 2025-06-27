@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Boolean &  Symbol & undefined & Null</h1>
+
+    <script>
+        //Boolean
+        let bool1=true;
+        let bool2=false;
+        console.log(typeof(bool1));
+        let str1="Java Script is fun!";
+        let str2="Java Script is fun!";
+        //Symbol
+        console.log("These two strings are the same:",str1===str2);
+        let sym1=Symbol("Java Script is so fun!");
+        let sym2=Symbol("Java Script is so fun!");
+        console.log("These two strings are the same:",sym1===sym2);
+        console.log("sym1",typeof(sym1))
+        //undefined
+        let unassigned;
+        console.log(unassigned);
+        let str3=undefined;
+        console.log(str3);
+        console.log("unassingned",typeof(unassigned));
+                //Null
+        let empty=null;
+        console.log("null",typeof(empty));
+        //undefined vs null
+        let firstName=undefined;
+        let lastName;
+        console.log("Same undefined :", firstName === lastName);
+      
+        
+
+        let middleName=null;
+        console.log("Same null :", middleName===lastName);
+
+
+        //type of
+        console.log("empty",typeof("empty"));
+        console.log("3.999",typeof(3.999));
+        
+
+
+        
+
+        
+
+    </script>
+</body>
+</html>
