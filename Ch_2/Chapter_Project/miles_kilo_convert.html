@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> Miles-to-kilometers converter</h1>
+    <script>
+        // Miles-to-kilometers converter
+        const convert= 1.60934; //1 mile=1.60934 kilometers
+        let kilometers=prompt("Enter the distance in kilometers:");
+        kilometers=Number(kilometers);
+        if(!isNaN(kilometers) || kilometers>0){
+            
+                let miles=kilometers*convert;
+                console.log(`The distance of ${kilometers} kms is equal to ${miles} miles`);
+        }else{
+            console.log("Please try again with a valid number");
+        }
+    </script>
+</body>
+</html>

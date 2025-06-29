@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Pound to Kilo converter</h1>
+    <script>
+        let convert =2.2046; //1 pound =2.2046 kilos
+        let pounds=prompt("Enter the weight in pounds:");
+        pounds=Number(pounds);
+        if(!isNaN(pounds)|| pounds>0){
+            let kilos=pounds/convert;
+            console.log(`The weight of ${pounds} pounds is equal to ${kilos} kilos`);
+        }else{
+            console.log("Please Try Again!");
+        }
+
+        
+
+ 
+    </script>
+</body>
+</html>

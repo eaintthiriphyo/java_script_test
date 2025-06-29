@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Logical Operators</h1>
+    <script>
+        //And operator
+        let a=1;
+        let b=2;
+        let c=3;
+        console.log(a<b && b<c); //true
+        console.log(a>b && b<c);//false
+
+        //Or operator
+        console.log(a<b || b>c); //true
+        console.log(a>b || b>c); //false
+
+        //Not operator
+        let x=false;
+        let y=true;
+        console.log("x is ",x);//false
+        console.log("!x is ",!x);//true
+        console.log(`(x&&y) is `,x&&y);//false
+        console.log(`!(x&&y) is`,!(x&&y));
+
+        
+    </script>
+</body>
+</html>

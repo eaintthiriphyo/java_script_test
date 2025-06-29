@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Inches to Centimeters converter</h1>
+    <script>
+        //Inches to Centimeters converter
+        let convert=2.54 //1 inche =2.54 centeimeters
+        let inches=prompt("Enter the inches:");
+        inches=Number(inches);
+
+        if(!isNaN(inches)|| inches>0){
+            let centimeters=inches*convert;
+            console.log(`The centimeters of ${centimeters} cm is equal to ${inches} inches` );
+        }else {
+            console.log("Please try again!");
+        }
+    </script>
+</body>
+</html>
